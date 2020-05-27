@@ -19,6 +19,7 @@ body {
     text-align: center;
     background-color: #f4f4f4;
     margin-top: 12rem;
+    border-radius: 1%;
 }
 
 h1 {
@@ -58,4 +59,10 @@ form p {
 
 #tip {
     font-size: 2rem;
+}
+
+@media (max-width: 500px) {
+    #calc-btn {
+        max-width: 100%;
+    }
 }
