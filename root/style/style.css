@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Oxygen", sans-serif;
+    background-color: #0e1111;
+}
+
+#container {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin-top: 12rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+form input {
+    padding: 10px;
+}
+
+form p {
+    padding: 10px;
+}
+
+#calc-btn {
+    background-color: #fff;
+    margin-top: 3rem;
+    max-width: 50%;
+    margin: auto;
+    border-radius: 10%;
+    font-size: 16px;
+    padding: 5px;
+}
+
+#people-amt {
+    margin-bottom: 1.6rem;
+}
+
+.main-section {
+    padding-bottom: 1rem;
+}
+
+#tip {
+    font-size: 2rem;
+}
